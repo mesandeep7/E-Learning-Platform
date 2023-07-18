@@ -1,0 +1,523 @@
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.navbarContainerSec{
+ /* display: flex;
+ justify-content: space-between !important; */
+
+}
+.brandImageSec{
+  margin-left: 50px;
+}
+.menuItemsDrop{
+  color: #fff !important;
+}
+.dropdown .nav-item a{
+  color: #fff;
+}
+@media (min-width: 321px) and (max-width: 425px) {
+  .brandImageSec{
+    width:120px;
+    height:32px;
+  }
+  .toggleClass{
+    margin-left: 0px !important;
+  } 
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .toggleClass{
+    margin-left: 350px ;
+    /* margin-left: 250px ; */
+    /* position: absolute; */
+    right:0;
+
+  } 
+  
+}
+
+/* @media  screen and (max-width: 768px){ */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* @media only screen and (max-width: 767px) { */
+      .brandImageSec{
+    margin-left: 30px;
+  }
+  .toggleClass{
+    margin-left: 450px ;
+  }
+  .menuitem2{
+    display: flex;
+    /* flex-direction: column !important; */
+     /* position: static !important;  */
+    transform: translateX(0%) !important; 
+  
+  }
+  .scrollbarSec1{
+    /* min-width: -40px; */
+    display: flex;
+     flex-direction: column !important;
+    /* transform: translateX(0%) !important;  */ 
+  
+  }
+  .scrollbar1 {
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 300px !important;
+    width: 200px;
+  }
+  .scrollbarSec{
+    display:flex;
+    flex-direction: column !important;
+     /* position: static !important;  */
+    transform: translateX(0%) !important; 
+  }
+  .Firstdrop {
+    position: relative;
+    transform: translateX(0%) !important;
+  }
+  
+  .SchoolTuition1{
+    position: relative;
+    transform: translateY(0%) !important;
+    
+  }
+  .SchoolTuition2{
+    position: relative;
+    transform: translateY(0%) !important;
+  
+  }
+  .SchoolTuition3{
+    position: relative;
+    transform: translateY(0%) !important;
+  
+  }
+  .SchoolTuition4{
+    position: relative;
+    transform: translateY(0%) !important;
+  
+  }
+  .SchoolTuition5{
+    position: relative;
+    transform: translateY(0%) !important;
+  
+  }
+  .SchoolTuition6{
+    position: relative;
+    transform: translateY(0%) !important;
+  
+  }
+  .SchoolTuition7{
+    position: relative;
+    transform: translateY(0%) !important;
+  
+  }
+  .SchoolTuition8{
+    position: relative;
+    transform: translateY(0%) !important;
+  
+  }
+  .drop1 {
+    margin-left: 5px;
+    /* width: 200px !important;  */
+  }
+  .SchoolTuitionDrop {
+    position: relative;
+    transform: translateY(0%) !important;
+  }
+  .SchoolTuitionDrop1 {
+    position: relative;
+    transform: translateY(0%) !important;
+  }
+  .SchoolTuitionDrop2 {
+    position: relative;
+    transform: translateY(0%) !important;
+  }
+}
+ 
+@media screen and (max-device-width: 453px){
+  .spansection {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .container > a {
+    font-weight: 700;
+    color: black;
+  }
+  .FirstUlList {
+    /* padding: 5px !important; */
+    font-size: 15px;
+    /* border: 1px solid black; */
+    /* border-radius: 5px; */
+    /* margin-left: 20px; */
+    color: black;
+  }
+  .FirstUlList a {
+    color: black;
+    font-weight: 600;
+  }
+  .FirstUlList:hover {
+    transition: 0.3s ease;
+  }
+  .FirstUlList a:hover {
+    color: grey;
+    transition: 0.3s ease;
+  }
+  .SecUlList {
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+    margin-left: 40px;
+  }
+  .SecUlList a:hover {
+    color: grey;
+  }
+  .scrollbar {
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 200px !important;
+  }
+  .TuitionDrop {
+    margin-left: 20px;
+    width:80px;
+  }
+  /* .SigninButton {
+    border: 1px solid rgb(233, 247, 223);
+    padding: 0 30px 0 30px;
+    font-size: 14px;
+    margin-left: 20px;
+    background-color: rgb(69, 193, 71);
+  } */
+  .scrollbar1 {
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 300px !important;
+  width: 200px;
+}
+.scrollbarSec{
+  display:flex;
+  flex-direction: column !important;
+   /* position: static !important;  */
+  transform: translateX(0%) !important; 
+}
+.Firstdrop {
+  position: relative;
+  transform: translateX(0%) !important;
+}
+
+.SchoolTuition1{
+  position: relative;
+  transform: translateY(0%) !important;
+  
+}
+.SchoolTuition2{
+  position: relative;
+  transform: translateY(0%) !important;
+
+}
+.SchoolTuition3{
+  position: relative;
+  transform: translateY(0%) !important;
+
+}
+.SchoolTuition4{
+  position: relative;
+  transform: translateY(0%) !important;
+
+}
+.SchoolTuition5{
+  position: relative;
+  transform: translateY(0%) !important;
+
+}
+.SchoolTuition6{
+  position: relative;
+  transform: translateY(0%) !important;
+
+}
+.SchoolTuition7{
+  position: relative;
+  transform: translateY(0%) !important;
+
+}
+.SchoolTuition8{
+  position: relative;
+  transform: translateY(0%) !important;
+
+}
+.drop1 {
+  margin-left: 5px;
+  /* width: 200px !important;  */
+}
+.SchoolTuitionDrop {
+  position: relative;
+  transform: translateY(0%) !important;
+}
+.SchoolTuitionDrop1 {
+  position: relative;
+  transform: translateY(0%) !important;
+}
+.SchoolTuitionDrop2 {
+  position: relative;
+  transform: translateY(0%) !important;
+}
+.itemdrop {
+  margin-left: 5px;
+  color:black;
+  width: -10px !important;
+}
+.menuitem2{
+  display: flex;
+  flex-direction: column !important;
+   /* position: static !important;  */
+  transform: translateY(0%) !important; 
+
+}
+.scrollbarSec1{
+  display: flex;
+  flex-direction: column !important;
+
+}
+}
+.nav {
+  background-color: transparent;
+  /* background-color: rgb(21, 184, 12); */
+}
+.spansection {
+  font-size: 15px;
+  margin-left: 20px;
+}
+.container > a {
+  font-weight: 700;
+  color: black;
+}
+.container > a:hover {
+  font-weight: 700;
+}
+.FirstUlList {
+  /* padding: -5px !important; */
+  font-size: 15px;
+  /* border: 1px solid black; */
+  /* border-radius: 5px; */
+  /* margin-left: 20px; */
+  color: black;
+}
+.FirstUlList a {
+  color: #fff;
+  font-weight: 600;
+}
+/* .FirstUlList:hover {
+  transition: 0.3s ease;
+} */
+/* .FirstUlList a:hover {
+  color: grey;
+  transition: 0.3s ease;
+} */
+.SecUlList {
+  font-size: 15px;
+  font-weight: 800;
+  color: #fff;
+  /* margin-left: 40px; */
+}
+/* .SecUlList a:hover {
+  color: grey;
+} */
+.SecUlList .dropdown-toggle .show a {
+  color: rgb(69, 193, 71);
+}
+.SecUlListFLC{
+  font-size: 15px;
+  font-weight: 800;
+  color: black;
+  /* margin-left: 40px; */
+
+}
+.SecUlListFLC :hover .SecUlListFLCHover .scrollbar  .menuitem2 {
+  position: absolute;
+  background-color: blueviolet;
+  color: aliceblue !important;
+
+}
+.SigninButton {
+  /* border: 1px solid rgb(233, 247, 223); */
+  /* padding: 0 20px 0 20px; */
+  color:#fff !important; 
+  font-size: 14px;
+  margin-left: 20px;
+  /* background-color: rgb(69, 193, 71); */
+}
+.drop {
+  margin-left: 50px;
+  color: black;
+}
+.item {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+  max-height: 70vh;
+}
+.drop1 {
+  margin-left: 5px;
+  /* width: 200px; */
+}
+.item1 {
+  text-decoration: none;
+  color: black;
+  height: 25px;
+}
+i {
+  margin-right: 15px;
+  color: black;
+}
+.menuitem2 {
+  position: relative;
+  transform: translateX(-60%);
+  /* width: px; */
+}
+.Firstdrop {
+  position: relative;
+  transform: translateX(-20%);
+}
+.SchoolTuitionDrop {
+  position: relative;
+  transform: translateX(100%);
+}
+.SchoolTuitionDrop1 {
+  position: relative;
+  transform: translateX(150%);
+}
+.SchoolTuitionDrop2 {
+  position: relative;
+  transform: translateX(150%);
+}
+.SchoolTuition1{
+  position: relative;
+  transform: translateX(80%);
+}
+.SchoolTuition2{
+  position: relative;
+  transform: translateX(80%);
+
+}
+.SchoolTuition3{
+  position: relative;
+  transform: translateX(80%);
+
+}
+.SchoolTuition4{
+  position: relative;
+  transform: translateX(80%);
+
+}
+.SchoolTuition5{
+  position: relative;
+  transform: translateX(80%);
+
+}
+.SchoolTuition6{
+  position: relative;
+  transform: translateX(80%);
+
+}
+.SchoolTuition7{
+  position: relative;
+  transform: translateX(80%);
+
+}
+.SchoolTuition8{
+  position: relative;
+  transform: translateX(80%);
+
+}
+
+.menuitem3 {
+  margin-left: 0px;
+  height: 20px;
+  color: black;
+}
+.scrollbar {
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 500px !important;
+}
+.dropdown:hover .scrollbar {
+  display: block;
+}
+.scrollbarSec {
+  display: flex;
+}
+.scrollbarSec1{
+  display: flex;
+}
+
+.scrollbar1 {
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 500px !important;
+  width: 300px;
+}
+
+/* .FreeStudyMaterial{
+    overflow: scroll;
+    overflow-y: scroll;
+     overflow-x: hidden;
+    height: 300px!important;
+  }  */
+.list {
+  margin-left: 35px;
+
+  color: black;
+}
+h5 {
+  text-align: center;
+}
+.item2 {
+  margin-left: 90px;
+  color: black;
+}
+.drop2 {
+  margin-left: 90px;
+}
+.item3 {
+  margin-left: 60px;
+  color: black;
+}
+.menuitem4 {
+  margin-left: -30px;
+  color: black;
+}
+.dropdown1 {
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  text-decoration: none !important;
+  margin-left: -40px;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+}
+.itemdrop {
+  margin-left: 5px;
+  color:black;
+}
+/*.menu{
+  margin-left:-60px ;
+ } */
+.TuitionDrop {
+  margin-left: 20px;
+}
+.itemdropdown {
+  text-decoration: none;
+  color: black;
+}

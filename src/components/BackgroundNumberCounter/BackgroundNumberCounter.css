@@ -1,0 +1,114 @@
+/* #section-counter {
+  position: relative;
+  z-index: 0;
+  background-attachment: fixed;
+  padding: 100px 30px;
+ } */
+ #section-counter {
+    position: relative;
+    z-index: 0;
+    padding: 100px 30px;
+    overflow: hidden;
+    margin: 100px 0;
+  }
+  #section-counter video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+  }
+    #section-counter .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: '';
+      z-index: -1;
+      opacity: .8;
+      background: #000000;
+      background: #ce4be8;
+      background: -moz-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
+      background: -webkit-gradient(left top, right bottom, color-stop(0%, #ce4be8), color-stop(100%, #207ce5));
+      background: -webkit-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
+      background: -o-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
+      background: -ms-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
+      background: -webkit-linear-gradient(315deg, #ce4be8 0%, #207ce5 100%);
+      background: -o-linear-gradient(315deg, #ce4be8 0%, #207ce5 100%);
+      background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce4be8', endColorstr='#207ce5', GradientType=1 ); }
+  
+  @media (max-width: 1199.98px) {
+    .ftco-counter {
+      background-position: center center !important; } }
+  
+  .ftco-counter .img {
+    display: block;
+    width: 100%; }
+    @media (max-width: 767.98px) {
+      .ftco-counter .img {
+        height: 400px;
+        background-position: top center !important; } }
+  
+  /* .ftco-counter .text strong.number {
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff; } */
+    .ftco-counter .text  p {
+      /* font-weight: 700;
+      font-size: 14px;
+      color: #fff; */
+    
+      display: block;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.9);
+      line-height: 1;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+  
+
+    .ftco-counter .text span {
+    /* display: block;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;  */
+  
+    display: block;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600; }
+    
+  
+  /* .ftco-counter .text span {
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600; } */
+    
+  
+  .ftco-counter .icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+    .ftco-counter .icon span {
+      color: #fff;
+      font-size: 48px; }
+  
+  @media (max-width: 767.98px) {
+    .ftco-counter .counter-wrap {
+      margin-bottom: 20px; } }
