@@ -1,0 +1,66 @@
+.firstbgSec {
+  background: linear-gradient(90deg, #e41c24, #fff, #04a4e4, #04a4e4);
+  /* background: linear-gradient(300deg, #fff,#e41c24,#fff, #04a4e4 ); */
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.secondbgSec {
+  opacity: transparent !important;
+}
+.infoSecDiv h1 span {
+  color: #f4eabe;
+  font-size: 45px !important;
+}
+.firstbgSec  h1{
+  font-size: 25px;
+  padding-top: 3px;
+  font-weight: 500;
+}
+.firstbgSec  p{
+  font-size: 20px;
+  /* font-weight: 500; */
+}
+.effect5 {
+  position: relative;
+}
+.effect5:before,
+.effect5:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+.effect5:after {
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}

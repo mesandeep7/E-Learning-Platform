@@ -1,0 +1,63 @@
+.counts {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 0;
+}
+
+.counts .count-box {
+  box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+/* .counts .count-box i {
+    display: block;
+    font-size: 30px;
+    color: #ed502e;
+    float: left;
+  } */
+.counts .count-box .Emoji {
+  display: block;
+  font-size: 30px;
+  color: #ed502e;
+  float: left;
+  margin: 15px 0 0 0;
+}
+
+.counts .count-box span {
+  margin-left: 8px;
+  font-size: 25px;
+
+  /* font-size: 30px; */
+  line-height: 44px;
+  /* display: block; */
+  font-weight: 700;
+  color: #0b2341;
+}
+.counts .count-box p strong{
+  font-weight: 500;
+}
+
+/* .counts .count-box span {
+  font-size: 42px;
+  line-height: 24px;
+  display: block;
+  font-weight: 700;
+  color: #0b2341;
+  margin:30px 0 0 90px;
+} */
+/* .counts .count-box .EmojiContent{
+    line-height: 24px;
+    display: block;
+    font-weight: 700;
+    color: #0b2341;
+    margin:0 0 0  50px!important;
+
+  } */
+
+.counts .count-box p {
+  margin-left: 46px;
+
+  padding: 0 0 0 30px;
+}

@@ -1,0 +1,16 @@
+/* .ProjectSec{
+    height:100vh;
+} */
+.slideDiv{
+    margin-top:40px ;
+}
+#project .h1Class{
+    font-size: 45px;
+    font-weight: 500 ;
+}
+#project .h1Class .greenFirst{
+    color: #f4eabe ;
+}
+#project .pClass{
+    font-weight: 500;
+}

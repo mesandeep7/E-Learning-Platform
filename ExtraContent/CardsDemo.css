@@ -1,0 +1,82 @@
+.CardCarouselContainer {
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid wheat;
+  border-radius: 15px;
+  padding: 20px 30px 30px 30px;
+  position: absolute;
+  top: 57%;
+  left: 10%;
+  z-index:1;
+}
+.CardCarouselh4Container {
+  width: 200px;
+  padding: 5px;
+  background-color: yellowgreen;
+  text-align: center;
+  border-radius: 25px;
+}
+.CardFirstBg {
+  background-color: rgb(243, 163, 243);
+}
+.CardSecondBg {
+  background-color: rgb(220, 247, 180);
+}
+.CardThirdBg {
+  background-color: rgb(250, 250, 186);
+}
+.CardFourthBg {
+  background-color: rgb(164, 164, 243);
+}
+button{
+    display:none;
+}
+
+@media (max-width: 425px) {
+  .CardCarouselContainer {
+    top: 25%;
+    left: 3%;
+
+    width: 94%;
+  }
+  .CardCarouselh4Container {
+    width: 200px;
+    /* height:30px; */
+    padding: 5px;
+    background-color: yellowgreen;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 20%;
+  }
+}
+@media (max-width: 768px) {
+  .CardCarouselContainer {
+    top: 47%;
+    left: 5%;
+    width: 90%;
+  }
+  .CardCarouselh4Container {
+    margin-left: 35%;
+  }
+}
+@media (max-width: 425px) {
+  .CardCarouselContainer {
+    top: 28%;
+    left: 3%;
+    width: 94%;
+  }
+  .CardCarouselh4Container {
+    margin-left: 22%;
+  }
+}
+
+@media (max-width: 375px) {
+  .CardCarouselContainer {
+    top: 24%;
+    left: 3%;
+    width: 94%;
+  }
+  .CardCarouselh4Container {
+    margin-left: 15%;
+  }
+}

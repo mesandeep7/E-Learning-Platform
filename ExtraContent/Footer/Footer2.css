@@ -1,0 +1,26 @@
+* {
+  text-decoration: none !important;
+}
+.DEmo {
+  /* background-color:rgb(187, 123, 247); */
+}
+.ContainerSec {
+  display: flex;
+  flex-direction: column;
+}
+.SecondFooter {
+  /* background-color:rgb(187, 123, 247); */
+}
+.H2Class {
+  font-family: "Roboto", sans-serif !important;
+  color: black !important;
+  font-size: 15px !important;
+}
+.AtagPli {
+  color: #fff !important;
+  font-size: 12px;
+}
+.rights {
+  display: flex !important;
+  justify-content: center;
+}

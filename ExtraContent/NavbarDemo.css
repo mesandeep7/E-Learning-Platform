@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* .ContainerClass{
+    border-bottom: 1px solid black ;
+} */
+/* .container > a{
+    font-weight: 700;
+    color: orangered;
+}
+.container > a:hover{
+    font-weight: 700;
+    color: orangered;
+} */
+.FirstUlList{
+    padding: -5px !important;
+    font-size: 15px;
+    border:1px solid orangered;
+    border-radius: 5px;
+}
+.FirstUlList a{
+    color: orangered;
+    font-weight: 600;
+}
+.FirstUlList:hover{
+    background-color:orangered;
+    transition: 0.3s ease;
+}
+.FirstUlList a:hover{
+    color:#fff;
+    transition: 0.3s ease;
+}
+.SecUlList{
+    font-size: 15px;
+    font-weight: 800;
+    color: black ;
+}
+.SecUlList a:hover{
+    color:orangered;
+}
+.SecUlList .dropdown-toggle .show a{
+    color:orangered;
+}
+.SigninButton{
+    border:1px solid grey;
+    padding:0 20px 0 20px;
+    font-size: 14px;
+}
